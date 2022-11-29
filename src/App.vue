@@ -1,8 +1,13 @@
 <script setup lang="ts">
+import Header from '@/components/Header.vue'
+import Posts from '@/components/Posts.vue'
+import Footer from '@/components/Footer.vue'
 </script>
 
 <template>
-  <h2>Hello</h2>
+  <Header/>
+  <Posts/>
+  <Footer/>
 </template>
 
 <style scoped lang="scss">
